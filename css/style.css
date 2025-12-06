@@ -1,0 +1,20 @@
+/* css/style.css */ 
+/* Simple modern CSS for University Portal */ 
+:root{ --bg:#0f172a; --card:#0b1220; --accent:#7c3aed; --muted:#94a3b8; 
+} 
+*{box-sizing:border-box} 
+body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica 
+Neue", Arial;background:linear-gradient(180deg, #071029 0%, #071a2f 
+100%;color:#e6eef8;line-height:1.5} 
+.container{max-width:1100px;margin:0 auto;padding:28px} 
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px} 
+.brand{font-weight:700;font-size:20px;color:var(--accent)} 
+.navlinks a{color:#dbeafe;margin-left:12px;text-decoration:none}
+.header{display:flex;align-items:center;justify-content:space-between;padding:28px 0} 
+.hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:24px} 
+.card{background:rgba(255,255,255,0.03);padding:20px;border-radius:12px;box-shadow:0 
+6px 18px rgba(2,6,23,0.6)} 
+.btn{background:var(--accent);border:none;color:white;padding:10px 14px;border-radius:10px;cursor:pointer;font-weight:600} 
+.grid{display:grid;grid-template-columns:repeat(auto
+fit,minmax(220px,1fr));gap:16px;margin-top:18px} 
+footer{margin-top:36px;padding:20px 0;color:var(--muted);font-size:14px;text-align:center} 
